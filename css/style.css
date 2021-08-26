@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* 브라우저 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #222222;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#wrap{
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+
+#header{
+    /* background-color: rgb(114, 210, 255); */
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+
+.logo a{
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-indent: -99999px;
+    background-image: url(../img/logo.gif);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.h_btns{
+    display: flex;
+    margin-right: 10px;
+}
+
+.h_btns p{
+    margin-left: 5px;}
+
+.h_btns p a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-indent: -99999px;
+    background-size: 29px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.h_btns .open_search a{
+    background-image: url(../img/icon_sc.png);
+}
+
+.h_btns .open_menu a{
+    background-image: url(../img/icon_menu.jpg);
+}
+
+#container{
+    background-color: #eee;
+}
+
+#container img{
+    width: 100%;
+    height: auto;
+}
+
+.main1{
+    margin-bottom: 15px;
+}
+
+.main2, .main3 {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.main2{
+    margin-bottom: 10px;
+}
+
+.main2 h2, .main3 h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #503c33;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.main2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.main2 ul li{
+    width: 50%;
+    padding: 0 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.item_photo{
+    margin-bottom: 10px;
+}
+
+.item_nameK{
+    font-size: 16px;
+    color: #222;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item_nameE{
+    font-size: 13px;
+    color: #777;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main3{
+    position: relative;
+}
+.main3 ul{
+    margin: 0 10px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.main3 li{
+    border-top:  1px dotted #ccc;
+}
+
+.main3 li a {
+    display: block;
+    color: #777;
+    padding: 7px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main3 .more{
+    position: absolute;
+    top: 25px;
+    right: 5px;
+}
+
+.main3 .more a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -99999px;
+    background-image: url(../img/more.png);
+    background-size: 17px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#footer{
+    background-color: #282828;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: rgba(255,255,255,0.7);
+}
+
+#footer>div{
+    margin-bottom: 20px;
+}
+
+#footer a{
+    color: rgba(255,255,255,0.7);
+}
+
+.f_btn ul{
+    display: flex;
+    padding: 0 5px;
+}
+
+.f_btn li{
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+.f_btn li a{
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.f_menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.f_menu li{
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+#footer .f_menu .point a{
+    color: #01ae52;
+}
+
+.f_info, .copyright{
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.f_info span, .copyright span{
+    display: inline-block;
+    margin-right: 20px;
+}
